@@ -1,0 +1,36 @@
+body {
+  --upper-left-clr: #afcacd;
+  --upper-right-clr: #4d6979;
+  --lower-left-clr: #70a4ba;
+  --lower-right-clr: #688aa0;
+
+  background-color: #0f0f0f;
+}
+
+#Video-Container {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+#Output-Canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  filter: blur(300px);
+  z-index: -1;
+  display: block;
+}
+
+#Video {
+  z-index: 1;
+  width: inherit;
+}
+
+#Colour-At-Mouse-Pos {
+  margin-left: 150px;
+}
